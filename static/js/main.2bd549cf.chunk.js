@@ -1,2 +1,2 @@
 (this["webpackJsonpricky-morty"]=this["webpackJsonpricky-morty"]||[]).push([[0],{11:function(e,c,t){"use strict";t.r(c);t(1);var n=t(3),r=t.n(n),s=(t(8),t(9),t(0)),i=function(){return Object(s.jsx)("div",{className:"App",children:Object(s.jsx)("header",{className:"App-header",children:Object(s.jsx)("h1",{children:"Hello"})})})};r.a.render(Object(s.jsx)(i,{}),document.getElementById("root"))},8:function(e,c,t){},9:function(e,c,t){}},[[11,1,2]]]);
-//# sourceMappingURL=main.858048d4.chunk.js.map
+//# sourceMappingURL=main.2bd549cf.chunk.js.map
