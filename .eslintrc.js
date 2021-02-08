@@ -1,22 +1,13 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'es2021': true,
-  },
-  'extends': [
-    'plugin:react/recommended',
-    'google',
-  ],
-  'parserOptions': {
-    'ecmaFeatures': {
-      'jsx': true,
-    },
-    'ecmaVersion': 12,
-    'sourceType': 'module',
-  },
-  'plugins': [
-    'react',
-  ],
-  'rules': {
+  extends: '@mate-academy/eslint-config-react',
+  rules: {
+    'jsx-a11y/no-autofocus': 0,
+    'jsx-a11y/label-has-associated-control': 0,
+    'object-curly-newline': [2, {
+      ObjectExpression: {
+        consistent: true,
+        minProperties: 4,
+      },
+    }],
   },
 };
